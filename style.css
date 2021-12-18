@@ -32,7 +32,9 @@
   padding-left: 1rem;
 }
 
-
+.cat-image2-col {
+  padding: 0 !important;
+}
 
 @media only screen and (max-width: 800px) {
   .call-to-action-button {
