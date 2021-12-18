@@ -1,0 +1,68 @@
+.header-text {
+  margin-top: 6rem;
+}
+
+.call-to-action-button {
+  background-color: #e08c6c;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 90%;
+}
+
+.call-to-action-button:hover {
+  background-color: #d7896a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+}
+
+.treat-img-container {
+  background-color: #f4f4f4;
+  padding: 0 !important;
+  width: 75%;
+}
+
+.check-list {
+  list-style-type: "\2713";
+  padding-left: 1rem !important;
+}
+
+.check-list-item {
+  padding-left: 1rem;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .call-to-action-button {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+
+  .hero-pic-column {
+    padding: 0 !important;
+  }
+
+  .hero-text-column {
+    padding: 0 !important;
+  }
+
+  .cat-image2-col {
+    padding: 0 !important;
+  }
+
+  .col-md-5 {
+    padding: 0 !important;
+  }
+
+  .col {
+    padding: 0 !important;
+  }
+
+  .col-lg-5 {
+    padding: 0 !important;
+  }
+}
